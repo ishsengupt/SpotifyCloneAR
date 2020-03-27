@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+target ‘hello-maps’ do
+
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Functions'
+pod 'Firebase/Firestore'
+pod 'Firebase/DynamicLinks'
+pod 'Firebase/Messaging'
+pod 'Firebase/RemoteConfig'
+pod 'Firebase/Storage'
+pod 'Firebase/Performance'
+
+end

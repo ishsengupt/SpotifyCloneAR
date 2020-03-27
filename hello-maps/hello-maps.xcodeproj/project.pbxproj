@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5807A68D716E0E96CB712B6F /* libPods-hello-maps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7EA68BCACC94F81CB82B56F /* libPods-hello-maps.a */; };
+		62DBF9F62429B29900E4AD8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62DBF9F52429B29900E4AD8C /* GoogleService-Info.plist */; };
+		62DBF9FA242A7FFB00E4AD8C /* CoffeeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DBF9F9242A7FFA00E4AD8C /* CoffeeAnnotation.swift */; };
+		62DBF9FE242ADE9A00E4AD8C /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62DBF9FD242ADE9A00E4AD8C /* song.mp3 */; };
+		62DBFA00242AE35700E4AD8C /* ARSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DBF9FF242AE35700E4AD8C /* ARSceneViewController.swift */; };
+		62DBFA02242AE37500E4AD8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DBFA01242AE37500E4AD8C /* SceneDelegate.swift */; };
+		62DBFA28242BFB2A00E4AD8C /* betterdays.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62DBFA27242BFB2A00E4AD8C /* betterdays.mp3 */; };
+		8D41B3DD21179E8E0035CED3 /* chevron-flat.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D41B3DC21179E8E0035CED3 /* chevron-flat.png */; };
+		8D998AB62117910800EAC2F3 /* coffee-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D998AB52117910800EAC2F3 /* coffee-pin.png */; };
+		8DAB2B2821174ED900BF5501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB2B2721174ED900BF5501 /* AppDelegate.swift */; };
+		8DAB2B2A21174ED900BF5501 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB2B2921174ED900BF5501 /* ViewController.swift */; };
+		8DAB2B2D21174ED900BF5501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAB2B2B21174ED900BF5501 /* Main.storyboard */; };
+		8DAB2B2F21174EDA00BF5501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAB2B2E21174EDA00BF5501 /* Assets.xcassets */; };
+		8DAB2B3221174EDA00BF5501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAB2B3021174EDA00BF5501 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62DBF9F52429B29900E4AD8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		62DBF9F9242A7FFA00E4AD8C /* CoffeeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoffeeAnnotation.swift; path = "../../../../Downloads/custom-annotation-callout/end/hello-maps/hello-maps/CoffeeAnnotation.swift"; sourceTree = "<group>"; };
+		62DBF9FD242ADE9A00E4AD8C /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song.mp3; path = ../../../song.mp3; sourceTree = "<group>"; };
+		62DBF9FF242AE35700E4AD8C /* ARSceneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARSceneViewController.swift; path = ../../../SpotifyCloneAR/SpotifyCloneAR/ARSceneViewController.swift; sourceTree = "<group>"; };
+		62DBFA01242AE37500E4AD8C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../SpotifyCloneAR/SpotifyCloneAR/SceneDelegate.swift; sourceTree = "<group>"; };
+		62DBFA27242BFB2A00E4AD8C /* betterdays.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = betterdays.mp3; path = ../../../../betterdays.mp3; sourceTree = "<group>"; };
+		8D41B3DC21179E8E0035CED3 /* chevron-flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chevron-flat.png"; sourceTree = "<group>"; };
+		8D998AB52117910800EAC2F3 /* coffee-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffee-pin.png"; sourceTree = "<group>"; };
+		8DAB2B2421174ED900BF5501 /* hello-maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAB2B2721174ED900BF5501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DAB2B2921174ED900BF5501 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DAB2B2C21174ED900BF5501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DAB2B2E21174EDA00BF5501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DAB2B3121174EDA00BF5501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DAB2B3321174EDA00BF5501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E608B98222BF8BC5D785563 /* Pods-hello-maps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-maps.debug.xcconfig"; path = "Target Support Files/Pods-hello-maps/Pods-hello-maps.debug.xcconfig"; sourceTree = "<group>"; };
+		D7EA68BCACC94F81CB82B56F /* libPods-hello-maps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hello-maps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F850F9C3D861AAE3497D4D7A /* Pods-hello-maps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-maps.release.xcconfig"; path = "Target Support Files/Pods-hello-maps/Pods-hello-maps.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DAB2B2121174ED900BF5501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5807A68D716E0E96CB712B6F /* libPods-hello-maps.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D158240372480B939AD6698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7EA68BCACC94F81CB82B56F /* libPods-hello-maps.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62DBFA23242BFA1700E4AD8C /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				62DBFA27242BFB2A00E4AD8C /* betterdays.mp3 */,
+			);
+			path = songs;
+			sourceTree = "<group>";
+		};
+		62DBFA24242BFA3600E4AD8C /* arobj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = arobj;
+			sourceTree = "<group>";
+		};
+		8DAB2B1B21174ED900BF5501 = {
+			isa = PBXGroup;
+			children = (
+				8DAB2B2621174ED900BF5501 /* hello-maps */,
+				8DAB2B2521174ED900BF5501 /* Products */,
+				FFBCBCF74765CC5446A469D6 /* Pods */,
+				3D158240372480B939AD6698 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DAB2B2521174ED900BF5501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB2B2421174ED900BF5501 /* hello-maps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DAB2B2621174ED900BF5501 /* hello-maps */ = {
+			isa = PBXGroup;
+			children = (
+				62DBFA24242BFA3600E4AD8C /* arobj */,
+				62DBFA23242BFA1700E4AD8C /* songs */,
+				8DAB2B2721174ED900BF5501 /* AppDelegate.swift */,
+				8DAB2B2921174ED900BF5501 /* ViewController.swift */,
+				62DBF9FF242AE35700E4AD8C /* ARSceneViewController.swift */,
+				62DBFA01242AE37500E4AD8C /* SceneDelegate.swift */,
+				8D998AB52117910800EAC2F3 /* coffee-pin.png */,
+				8D41B3DC21179E8E0035CED3 /* chevron-flat.png */,
+				8DAB2B2B21174ED900BF5501 /* Main.storyboard */,
+				8DAB2B2E21174EDA00BF5501 /* Assets.xcassets */,
+				62DBF9F52429B29900E4AD8C /* GoogleService-Info.plist */,
+				62DBF9FD242ADE9A00E4AD8C /* song.mp3 */,
+				8DAB2B3021174EDA00BF5501 /* LaunchScreen.storyboard */,
+				62DBF9F9242A7FFA00E4AD8C /* CoffeeAnnotation.swift */,
+				8DAB2B3321174EDA00BF5501 /* Info.plist */,
+			);
+			path = "hello-maps";
+			sourceTree = "<group>";
+		};
+		FFBCBCF74765CC5446A469D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E608B98222BF8BC5D785563 /* Pods-hello-maps.debug.xcconfig */,
+				F850F9C3D861AAE3497D4D7A /* Pods-hello-maps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DAB2B2321174ED900BF5501 /* hello-maps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DAB2B3621174EDA00BF5501 /* Build configuration list for PBXNativeTarget "hello-maps" */;
+			buildPhases = (
+				EBC034FF60F22483DFD915BE /* [CP] Check Pods Manifest.lock */,
+				8DAB2B2021174ED900BF5501 /* Sources */,
+				8DAB2B2121174ED900BF5501 /* Frameworks */,
+				8DAB2B2221174ED900BF5501 /* Resources */,
+				2E7E5705FDCD37611D319628 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hello-maps";
+			productName = "hello-maps";
+			productReference = 8DAB2B2421174ED900BF5501 /* hello-maps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DAB2B1C21174ED900BF5501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ishan Sengupta";
+				TargetAttributes = {
+					8DAB2B2321174ED900BF5501 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 8DAB2B1F21174ED900BF5501 /* Build configuration list for PBXProject "hello-maps" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DAB2B1B21174ED900BF5501;
+			productRefGroup = 8DAB2B2521174ED900BF5501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DAB2B2321174ED900BF5501 /* hello-maps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DAB2B2221174ED900BF5501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAB2B3221174EDA00BF5501 /* LaunchScreen.storyboard in Resources */,
+				8D998AB62117910800EAC2F3 /* coffee-pin.png in Resources */,
+				8DAB2B2F21174EDA00BF5501 /* Assets.xcassets in Resources */,
+				62DBFA28242BFB2A00E4AD8C /* betterdays.mp3 in Resources */,
+				8DAB2B2D21174ED900BF5501 /* Main.storyboard in Resources */,
+				62DBF9FE242ADE9A00E4AD8C /* song.mp3 in Resources */,
+				8D41B3DD21179E8E0035CED3 /* chevron-flat.png in Resources */,
+				62DBF9F62429B29900E4AD8C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E7E5705FDCD37611D319628 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hello-maps/Pods-hello-maps-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hello-maps/Pods-hello-maps-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hello-maps/Pods-hello-maps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC034FF60F22483DFD915BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hello-maps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DAB2B2021174ED900BF5501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DBFA02242AE37500E4AD8C /* SceneDelegate.swift in Sources */,
+				8DAB2B2A21174ED900BF5501 /* ViewController.swift in Sources */,
+				8DAB2B2821174ED900BF5501 /* AppDelegate.swift in Sources */,
+				62DBFA00242AE35700E4AD8C /* ARSceneViewController.swift in Sources */,
+				62DBF9FA242A7FFB00E4AD8C /* CoffeeAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8DAB2B2B21174ED900BF5501 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAB2B2C21174ED900BF5501 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DAB2B3021174EDA00BF5501 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAB2B3121174EDA00BF5501 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DAB2B3421174EDA00BF5501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DAB2B3521174EDA00BF5501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DAB2B3721174EDA00BF5501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E608B98222BF8BC5D785563 /* Pods-hello-maps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2ZZ66NH5L;
+				INFOPLIST_FILE = "hello-maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanengupta.hello-maps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DAB2B3821174EDA00BF5501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F850F9C3D861AAE3497D4D7A /* Pods-hello-maps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2ZZ66NH5L;
+				INFOPLIST_FILE = "hello-maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanengupta.hello-maps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DAB2B1F21174ED900BF5501 /* Build configuration list for PBXProject "hello-maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DAB2B3421174EDA00BF5501 /* Debug */,
+				8DAB2B3521174EDA00BF5501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DAB2B3621174EDA00BF5501 /* Build configuration list for PBXNativeTarget "hello-maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DAB2B3721174EDA00BF5501 /* Debug */,
+				8DAB2B3821174EDA00BF5501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DAB2B1C21174ED900BF5501 /* Project object */;
+}
